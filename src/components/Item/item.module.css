@@ -1,0 +1,130 @@
+.container {
+    background-color: var(--f5);
+    margin: 6rem auto;
+    width: 70rem;
+    height: 36rem;
+    border-radius: 40px;
+    padding: 3rem;
+    box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.usuario {
+    float: right;
+    font-size: 1.4rem;
+    vertical-align: middle;
+}
+
+.titulo {
+    color: black;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.containerItem {
+    display: flex;
+    margin-top: 1.6rem;
+}
+
+.capa {
+    width: 240px;
+    height: 320px;
+    border: 1px solid var(--1e);
+    background-color: var(--d9);
+    text-align: center;
+    line-height: 320px;
+}
+
+.dados {
+    float: left;
+    margin-left: 1.4rem;
+}
+
+.tituloItem {
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.autor {
+    font-style: italic;
+    font-size: 1.4rem;
+}
+
+.dadosAdicionais {
+    font-size: 1.1rem;
+    margin-top: 0.3rem;
+}
+
+.dadosAdicionais > p {
+    margin-top: 0.2rem;
+}
+
+.genero, .descricao, .exemplares {
+    font-size: 1.4rem;
+    margin-top: 0.6rem;
+    font-weight: 500;
+}
+
+.genero {
+    margin-right: 0.4rem;
+}
+
+.containerGenero {
+    display: flex;
+    justify-content:first baseline;
+    vertical-align: middle;
+}
+
+.containerGenero > a {
+    text-decoration: none;
+    background-color: var(--d9);
+    padding: 0.4rem 0.8rem;
+    margin: 0.2rem 0.3rem 0 0.3rem;
+    border-radius: 16px;
+    transition: 0.2s background-color;
+}
+
+.genero > a:hover {
+    background-color: var(--cf);
+}
+
+.genero > a, a:hover, a:active, a:visited {
+    color: var(--1e);
+}
+
+.containerDescricao {
+    max-width: 48rem;
+    text-align: justify;
+}
+
+.containerExemplares {
+    display: flex;
+    justify-content: first baseline;
+    margin: 1rem 0;
+}
+
+.button {
+    border: 0;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    padding: 0.6rem;
+    border-radius: 16px;
+    background-color: #d9d9d9;
+    width: 8rem;
+    transition: 0.2s background-color;
+    vertical-align: middle;
+}
+
+.button:hover {
+    background-color: var(--cf);
+}
+
+.button:active {
+    box-shadow: 1px 1px 4px var(--1e);
+    transition: 0.05s;
+}
